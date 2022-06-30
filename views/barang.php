@@ -34,8 +34,14 @@ if (@$_GET['act'] == '') {
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $data->nama_brg; ?></h5>
                                 <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
-                                <a id="btn" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-                                <br>
+
+                                <!-- Quantity-->
+                                <form id='myform' method='POST' class='quantity' action='#'>
+                                    <input type='button' value='-' class='qtyminus minus' field='quantity' />
+                                    <input type='text' name='quantity' value='0' class='qty' />
+                                    <input type='button' value='+' class='qtyplus plus' field='quantity' />
+                                </form>
+
                                 <a class="cart-btn2 collapsible">Deskripsi</a>
                                 <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px; ">
                                     <p><?php echo $data->stok_brg; ?></p>
@@ -119,6 +125,24 @@ if (@$_GET['act'] == '') {
                 });
             }));
         })
+    </script>
+
+    <script>
+        jQuery(document).ready(($) => {
+            $(".quantity").on("click", ".plus", function (e) {
+                let $input = $(this).prev("input.qty");
+                let val = parseInt($input.val());
+                $input.val(val + 1).change();
+            });
+
+            $(".quantity").on("click", ".minus", function (e) {
+                let $input = $(this).next("input.qty");
+                var val = parseInt($input.val());
+                if (val > 0) {
+                $input.val(val - 1).change();
+                }
+            });
+        });
     </script>
 
 

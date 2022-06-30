@@ -24,3 +24,43 @@
     padding-bottom: 50px;
   }
   
+
+  
+  #myform {
+    text-align: center;
+    padding: 5px;
+    margin: 2%;
+  }
+  .qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+		margin-left: 0.8rem;
+		margin-right: 0.8rem;
+  }
+  input.qtyplus {
+    width:45px;
+    height:45px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    background: #F28123;
+    box-shadow: 0 0 3px gray;
+  }
+  input.qtyminus {
+    width:45px;
+    height:45px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    background: #F28123;
+    box-shadow: 0 0 3px gray;
+  }
+
+  input.qtyplus:hover{
+    background: #051922;
+  }
+
+  input.qtyminus:hover{
+    background: #051922;
+  }
