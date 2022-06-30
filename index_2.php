@@ -16,7 +16,7 @@
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>PETDICTIVE</title>
+	<title>BOMBOM RELIGY SHOP</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -102,9 +102,9 @@
 						<div class="hero-text">
 							<div class="hero-text-tablecell">
 								<p class="subtitle">Love and Cherish</p>
-								<h1>Just Love Them, Give the Best For Them</h1>
+								<h1>Customization freedom in diversity</h1>
 								<div class="hero-btns">
-									<a href="shop.php" class="boxed-btn">PetDictive Collection</a>
+									<a href="shop.php" class="boxed-btn">BOMBOM Collection</a>
 									<a href="contact.html" class="bordered-btn">Contact Us</a>
 								</div>
 							</div>
@@ -120,8 +120,8 @@
 					<div class="col-lg-10 offset-lg-1 text-center">
 						<div class="hero-text">
 							<div class="hero-text-tablecell">
-								<p class="subtitle">Healthy Everyday</p>
-								<h1>99% Flea Free</h1>
+								<p class="subtitle">Competitive Price</p>
+								<h1>High Quality Product</h1>
 								<div class="hero-btns">
 									<a href="shop.php" class="boxed-btn">Visit Shop</a>
 									<a href="contact.html" class="bordered-btn">Contact Us</a>
@@ -205,7 +205,7 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
 						<h3><span class="orange-text">Our</span> Products</h3>
-						<p>Hewan kami selalu terjaga mulai dari kebersihan, makanan, dan tempat mereka.</p>
+						<p>BOMBOM Religy Shop menyediakan perlengkapan ibadah dengan kualitas tinggi dan harga yang bersaing</p>
 					</div>
 				</div>
 			</div>
@@ -305,7 +305,7 @@
 							<div class="client-meta">
 								<h3>Krisostomos Abdixta <span>Developer</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" A11.2019.11695 "
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -319,7 +319,7 @@
 							<div class="client-meta">
 								<h3>Candhy Fadhila <span>Developer</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" A11.2019.11697 "
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -331,9 +331,9 @@
 								<img src="assets/img/avaters/avatar3.png" alt="">
 							</div>
 							<div class="client-meta">
-								<h3>Jacob Sikim <span>Local shop owner</span></h3>
+								<h3>Rezha Mukti Kris Saputra<span>Developer</span></h3>
 								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+									" A11.2019.11682 "
 								</p>
 								<div class="last-icon">
 									<i class="fas fa-quote-right"></i>
@@ -357,12 +357,12 @@
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
-					<div class="abt-text">
+				<div class="abt-text">
 						<p class="top-sub">Since Year 2021</p>
-						<h2>We are <span class="orange-text">PetDictive</span></h2>
-						<p>Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima mollitia qui ducimus.</p>
-						<a href="about.html" class="boxed-btn mt-4">know more</a>
+						<h2>We are <span class="orange-text">BOMBOM</span> Religy Shop</h2>
+						<p>Bombom Religy Shop merupakan bisnis yang menjual berbagai perlengkapan ibadah untuk Agama Islam, Nasrani, Hindu, dan Buddha. Customer juga dapat mengkustomisasi desain dari produk yang mereka inginkan.</p>
+						<p>Pada hari Senin dan Kamis kami menyediakan produk barang Hindu& Buddha, di hari Selasa dan Jumat kami menjual barang rohani Nasrani, pada hari Jumat dan Sabtu kami menyediakan barang rohani Islami.</p>
+						<a href="login1/login.php" class="boxed-btn mt-4">know more</a>
 					</div>
 				</div>
 			</div>
@@ -388,7 +388,7 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
 						<h3><span class="orange-text">Our</span> News</h3>
-						<p>Beberapa hari lagi akan ada musim semi, bagus buatmu untuk memilih hewan sesuai karakteristikmu.</p>
+						<p>Dapatkan berita terkini mengenai BOMBOM Religy Shop dan berita terhangat di dunia</p>
 					</div>
 				</div>
 			</div>
@@ -400,12 +400,12 @@
 							<div class="latest-news-bg news-bg-1"></div>
 						</a>
 						<div class="news-text-box">
-							<h3><a href="">Beberapa fakta menarik tentang toko hewan.</a></h3>
+							<h3><a href="">Pendaftaran Karyawan BOMBOM Religy Shop</a></h3>
 							<p class="blog-meta">
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
-								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
+								<span class="date"><i class="fas fa-calendar"></i> 3 Januari, 2022</span>
 							</p>
-							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+							<p class="excerpt">Awali tahun baru dengan pekerjaan baru. Ayo bergabung bersama keluarga Karyawan BOMBOM Religy Shop.</p>
 
 						</div>
 					</div>
@@ -416,12 +416,12 @@
 							<div class="latest-news-bg news-bg-2"></div>
 						</a>
 						<div class="news-text-box">
-							<h3><a href="">Begini kalau kamu tidak punya kandang hewan.</a></h3>
+							<h3><a href="">Tips Merawat dan Membersihkan Sajadah</a></h3>
 							<p class="blog-meta">
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
-								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
+								<span class="date"><i class="fas fa-calendar"></i> 20 Januari, 2022</span>
 							</p>
-							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+							<p class="excerpt">Cara merawat sajadah berbahan karpet adalah dengan rutin divacuum atau disikat dengan sikat halus.</p>
 
 						</div>
 					</div>
@@ -432,18 +432,17 @@
 							<div class="latest-news-bg news-bg-3"></div>
 						</a>
 						<div class="news-text-box">
-							<h3><a href="">Menurut ilmuan kucing dapat meredakan stres.</a></h3>
+							<h3><a href="">Sejarah Vihara: Tempat Ibadah Umat Buddha</a></h3>
 							<p class="blog-meta">
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
-								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
+								<span class="date"><i class="fas fa-calendar"></i> 26 Januari, 2022</span>
 							</p>
-							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+							<p class="excerpt">Vihara adalah rumah ibadah bagi penganut agama Buddha. Berikut kami sajikan...</p>
 
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</div>
 	<!-- end latest news -->
@@ -457,7 +456,7 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box about-widget">
 						<h2 class="widget-title">About us</h2>
-						<p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+						<p>Bombom Religy Shop merupakan bisnis yang menjual berbagai perlengkapan ibadah untuk Agama Islam, Nasrani, Hindu, dan Buddha</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
@@ -465,7 +464,7 @@
 						<h2 class="widget-title">Get in Touch</h2>
 						<ul>
 							<li>Jl. Imam Bonjol No.207.</li>
-							<li>support@petdictive.com</li>
+							<li>support@bombomshop.com</li>
 							<li>+62 111 222 3333</li>
 						</ul>
 					</div>

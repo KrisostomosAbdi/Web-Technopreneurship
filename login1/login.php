@@ -57,6 +57,7 @@ if (isset($_POST["login"])) {
 	<meta http-equiv='cache-control' content='no-cache'>
 	<meta http-equiv='expires' content='0'>
 	<meta http-equiv='pragma' content='no-cache'>
+	<title>BOMBOM RELIGY SHOP</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
