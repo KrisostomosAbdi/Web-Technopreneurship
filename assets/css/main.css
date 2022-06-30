@@ -1457,6 +1457,14 @@ body {
   opacity: 0.6;
 }
 
+.hero-text p.subtitle2 {
+  color: #F28123;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 20px;
+}
+
 .hero-text p.subtitle {
   color: #F28123;
   font-weight: 700;
@@ -2244,11 +2252,11 @@ a.video-play-btn {
 }
 
 .team-bg-3 {
-  background-image: url(../img/team/Frame.png);
+  background-image: url(../img/team/team-3.jpg);
 }
 
 .team-bg-4 {
-  background-image: url(../img/team/Frame.png);
+  background-image: url(../img/team/team-3.jpg);
 }
 
 .team-bg {
