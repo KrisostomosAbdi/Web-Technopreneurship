@@ -15,9 +15,9 @@ if (@$_GET['act'] == '') {
             <center>
             <a onClick="capture()" class="cart-btn">ORDER NOW</a>
             <br><br>
-            <a class="cart-btn" href="https://api.whatsapp.com/send?phone=6285701829956">Send Message</a>
+            <a class="cart-btn" href="https://api.whatsapp.com/send?phone=6285701829956">CONTACT US</a>
             <a class="cart-btn" href="mailto:krisostomusabdi@gmail.com">Send Email</a>
-            <a class="cart-btn" href="https://telegram.me/KrisostomosAbdi">Send Message</a>
+            <a class="cart-btn" href="https://telegram.me/KrisostomosAbdi">CONTACT US</a>
             </center>
             <br>
         </div>
