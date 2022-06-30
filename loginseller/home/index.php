@@ -1,10 +1,10 @@
 <!-- <?php
-session_start();
-//cek sudah login
-if ( !isset($_SESSION["login"])) {
-    header("Location: ../login.php");
-    exit;
-}
+// session_start();
+// //cek sudah login
+// if ( !isset($_SESSION["login"])) {
+//     header("Location: ../login.php");
+//     exit;
+// }
 ?> -->
 <html lang="en">
 <head>
