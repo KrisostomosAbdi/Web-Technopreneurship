@@ -24,7 +24,7 @@ if (@$_GET['act'] == '') {
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $data->nama_brg; ?></h5>
                                 <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
-                                <a onClick="capture()" id="btn" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                                <a id="btn" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                                 <br>
                                 <a class="cart-btn2 collapsible">Deskripsi</a>
                                 <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px; ">
@@ -39,6 +39,7 @@ if (@$_GET['act'] == '') {
             ?>
         </div>
         <div>
+        <a onClick="capture()" class="cart-btn">Take Screenshot</a>
         <a class="cart-btn" href="https://api.whatsapp.com/send?phone=6285701829956">Send Message</a>
         <a class="cart-btn" href="mailto:krisostomusabdi@gmail.com">Send Email</a>
         <a class="cart-btn" href="https://telegram.me/KrisostomosAbdi">Send Message</a>
