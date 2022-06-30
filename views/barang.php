@@ -5,7 +5,7 @@ $brg = new Barang($connection);
 if (@$_GET['act'] == '') {
 ?>
     <link href="https://fontawesome.com/v4.7.0/icons/">
-
+    <script src="https://kit.fontawesome.com/a6798fb41d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/deskripsi.css">
     <link rel="stylesheet" href="assets/css/css_product.css">
     <link rel="stylesheet" href="assets/css/rating.css">
@@ -15,9 +15,9 @@ if (@$_GET['act'] == '') {
             <center>
             <a onClick="capture()" class="cart-btn">ORDER NOW</a>
             <br><br>
-            <a class="cart-btn" href="https://api.whatsapp.com/send?phone=6285701829956">CONTACT US</a>
-            <a class="cart-btn" href="mailto:krisostomusabdi@gmail.com">Send Email</a>
-            <a class="cart-btn" href="https://telegram.me/KrisostomosAbdi">CONTACT US</a>
+            <a class="cart-btn" href="https://api.whatsapp.com/send?phone=6285701829956">CONTACT US <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></a>
+            <a class="cart-btn" href="mailto:krisostomusabdi@gmail.com">Send Email <i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+            <a class="cart-btn" href="https://telegram.me/KrisostomosAbdi">CONTACT US <i class="fa fa-telegram fa-lg" aria-hidden="true"></i></a>
             </center>
             <br>
         </div>
