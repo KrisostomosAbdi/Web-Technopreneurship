@@ -11,6 +11,16 @@ if (@$_GET['act'] == '') {
     <link rel="stylesheet" href="assets/css/rating.css">
     <!--Menu-->
     <div class="container" id="capture">
+        <div class="btn_container">
+            <center>
+            <a onClick="capture()" class="cart-btn">ORDER NOW</a>
+            <br><br>
+            <a class="cart-btn" href="https://api.whatsapp.com/send?phone=6285701829956">Send Message</a>
+            <a class="cart-btn" href="mailto:krisostomusabdi@gmail.com">Send Email</a>
+            <a class="cart-btn" href="https://telegram.me/KrisostomosAbdi">Send Message</a>
+            </center>
+            <br>
+        </div>
         <div class="row row-cols-1 row-cols-md-3 text-center">
             <?php
             $no = 1;
@@ -37,13 +47,6 @@ if (@$_GET['act'] == '') {
             <?php
             }
             ?>
-        </div>
-        <div>
-        <a onClick="capture()" class="cart-btn">Take Screenshot</a>
-        <a class="cart-btn" href="https://api.whatsapp.com/send?phone=6285701829956">Send Message</a>
-        <a class="cart-btn" href="mailto:krisostomusabdi@gmail.com">Send Email</a>
-        <a class="cart-btn" href="https://telegram.me/KrisostomosAbdi">Send Message</a>
-
         </div>
     </div>
 
@@ -74,7 +77,7 @@ if (@$_GET['act'] == '') {
                     const image = canvas.toDataURL('image/png').replace('image/png', 'image/octet-stream')
                     
                     const a = document.createElement('a')
-                    a.setAttribute('download', 'my-image.png')
+                    a.setAttribute('download', 'INVOICE.png')
                     a.setAttribute('href', image)
                     a.click()
                     canvas.remove()
