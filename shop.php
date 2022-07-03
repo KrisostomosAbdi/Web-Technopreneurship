@@ -4,12 +4,12 @@ require_once('config/koneksi.php');
 require_once('models/database.php');
 
 $connection = new Database($host, $user, $pass, $database);
-// session_start();
-// //cek sudah login
-// if ( !isset($_SESSION["login"])) {
-//     header("Location: login1/login.php");
-//     exit;
-// }
+session_start();
+//cek sudah login
+if ( !isset($_SESSION["login"])) {
+    header("Location: login1/login.php");
+    exit;
+}
 ?>
 
 <!DOCTYPE html>
@@ -75,12 +75,10 @@ $connection = new Database($host, $user, $pass, $database);
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="index_2.php">Home</a>
-
-								</li>
+								<li><a href="index_2.php">Home</a></li>
+								<li class="current-list-item"><a href="shop.php">Shop</a></li>
+								<li><a href="howtoorder.html">How to Order</a></li>
 								<li><a href="about.html">About</a></li>
-
-
 								<li><a href="contact.html">Contact</a></li>
 
 								<li>
@@ -141,15 +139,15 @@ $connection = new Database($host, $user, $pass, $database);
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box about-widget">
 						<h2 class="widget-title">About us</h2>
-						<p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+						<p>Bombom Religy Shop merupakan bisnis yang menjual berbagai perlengkapan ibadah untuk Agama Islam, Nasrani, Hindu, dan Buddha</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box get-in-touch">
 						<h2 class="widget-title">Get in Touch</h2>
 						<ul>
-							<li>Jl. Imam Bonjol No.207</li>
-							<li>support@petdictive.com</li>
+							<li>Jl. Imam Bonjol No.207.</li>
+							<li>support@bombomshop.com</li>
 							<li>+62 111 222 3333</li>
 						</ul>
 					</div>
@@ -168,7 +166,7 @@ $connection = new Database($host, $user, $pass, $database);
 					<div class="footer-box subscribe">
 						<h2 class="widget-title">Subscribe</h2>
 						<p>Subscribe to our mailing list to get the latest updates.</p>
-						<form action="index_2.php">
+						<form action="index.html">
 							<input type="email" placeholder="Email">
 							<button type="submit"><i class="fas fa-paper-plane"></i></button>
 						</form>

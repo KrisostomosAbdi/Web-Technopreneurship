@@ -1,11 +1,11 @@
-<!-- <?php
-// session_start();
-// //cek sudah login
-// if ( !isset($_SESSION["login"])) {
-//     header("Location: login1/login.php");
-//     exit;
-// }
-?> -->
+<?php
+session_start();
+//cek sudah login
+if ( !isset($_SESSION["login"])) {
+    header("Location: login1/login.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -70,8 +70,9 @@
 						<nav class="main-menu">
 							<ul>
 								<li class="current-list-item"><a href="index_2.php">Home</a></li>
+								<li><a href="shop.php">Shop</a></li>
+								<li><a href="howtoorder.html">How to Order</a></li>
 								<li><a href="about.html">About</a></li>
-
 								<li><a href="contact.html">Contact</a></li>
 
 								<li>
@@ -353,7 +354,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
 					<div class="abt-bg">
-						<a href="https://www.youtube.com/watch?v=2DWzNhqA8sk" class="video-play-btn popup-youtube"><i class="fas fa-play"></i></a>
+						<a href="https://www.youtube.com/watch?v=DBD4SuVSbQk" class="video-play-btn popup-youtube"><i class="fas fa-play"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">

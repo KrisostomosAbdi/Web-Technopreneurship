@@ -15,9 +15,11 @@ if (@$_GET['act'] == '') {
             <center>
             <a onClick="capture()" class="cart-btn">ORDER NOW</a>
             <br><br>
-            <a class="cart-btn" href="https://api.whatsapp.com/send?phone=6285701829956">CONTACT US <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></a>
-            <a class="cart-btn" href="mailto:krisostomusabdi@gmail.com">Send Email <i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
-            <a class="cart-btn" href="https://telegram.me/KrisostomosAbdi">CONTACT US <i class="fa fa-telegram fa-lg" aria-hidden="true"></i></a>
+            <a class="cart-btn" href="https://api.whatsapp.com/send?phone=6285701829956">Our Whatsapp <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></a>
+            <a class="cart-btn" href="mailto:krisostomusabdi@gmail.com">EMAIL <i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+            <a class="cart-btn" href="https://telegram.me/KrisostomosAbdi">Our Telegram <i class="fa fa-telegram fa-lg" aria-hidden="true"></i></a>
+            <br><br>
+            <p style="font-weight: bold;">Butuh Bantuan? <a href="howtoorder.html">How to Order</a></p>
             </center>
             <br>
         </div>

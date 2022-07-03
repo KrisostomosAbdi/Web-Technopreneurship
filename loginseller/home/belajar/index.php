@@ -46,8 +46,6 @@
 
               <ul class="dropdown-menu">               
                 <li><a href="?page=barang">Data Barang</a></li>
-                <li><a href="#">Grafik</a></li>
-                <li><a href="#">Report</a></li>
               </ul>
               
             </li>
