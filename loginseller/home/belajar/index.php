@@ -41,14 +41,7 @@
           <ul class="nav navbar-nav side-nav">
 
             <li><a href="?page=dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>         
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i> Barang <b class="caret"></b></a>
-
-              <ul class="dropdown-menu">               
-                <li><a href="?page=barang">Data Barang</a></li>
-              </ul>
-              
-            </li>
+            <li><a href="?page=barang"><i class="fa fa-shopping-cart"></i> Data Barang </a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right navbar-user">

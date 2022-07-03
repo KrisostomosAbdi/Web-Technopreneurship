@@ -71,13 +71,12 @@ if ( !isset($_SESSION["login"])) {
 							<ul>
 								<li class="current-list-item"><a href="index_2.php">Home</a></li>
 								<li><a href="shop.php">Shop</a></li>
-								<li><a href="howtoorder.html">How to Order</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="howtoorder-logged.php">How to Order</a></li>
+								<li><a href="about-logged.php">About</a></li>
+								<li><a href="contact-logged.php">Contact</a></li>
 
 								<li>
 									<div class="header-icons">
-										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
 										<a class="logout" href="login1\logout.php"><i class="fas fa-sign-out-alt"></i></a>
 									</div>
 								</li>

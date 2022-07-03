@@ -2,7 +2,7 @@ body{
     margin-top:20px;
     color: #1a202c;
     text-align: left;
-    background-image: url("../../assets/img/bg2.jpg");
+    background-image: url("bg2.jpg");
     background-size: cover;
 }
 .main-body {

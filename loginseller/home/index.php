@@ -122,7 +122,7 @@ if ( !isset($_SESSION["login"])) {
 <div class="intro">
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <img class="cheese" src="../../assets/img/icon2.png" width="250pt" height="250pt"><br>
+      <img class="cheese" src="../../assets/img/logo2.jpg" width="250pt" height="250pt"><br>
       <h1 class="display-4"> 
         <?php 
             date_default_timezone_set('Asia/Jakarta');
@@ -154,13 +154,13 @@ if ( !isset($_SESSION["login"])) {
 <div class="row">
   <a href="profile.php" class="menu">
     <div style="background-color:rgba(211, 211, 211, 0.5);">
-          <img class="icon" src="../../assets/img/icon2.png" sizes="100%" width="90pt" height="90pt"><br>
+          <img class="icon" src="../../assets/img/profile.png" sizes="100%" width="90pt" height="90pt"><br>
           <span><h5>PROFILE</h5></span>
     </div>
   </a>
   <a href="belajar/index.php" class="menu">
     <div style="background-color:rgba(128, 128, 128, 0.5);">
-          <img class="icon1" src="../../assets/img/icon2.png" sizes="100%" width="90pt" height="90pt"><br>
+          <img class="icon1" src="../../assets/img/dashboard.png" sizes="100%" width="90pt" height="90pt"><br>
           <h5>PRODUCT MANAGEMENT</h5>
       </div>
     </a>

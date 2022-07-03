@@ -1,9 +1,4 @@
 <?php
-ob_start();
-require_once('config/koneksi.php');
-require_once('models/database.php');
-
-$connection = new Database($host, $user, $pass, $database);
 session_start();
 //cek sudah login
 if ( !isset($_SESSION["login"])) {
@@ -11,10 +6,8 @@ if ( !isset($_SESSION["login"])) {
     exit;
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +15,7 @@ if ( !isset($_SESSION["login"])) {
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Shop</title>
+	<title>Contact</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -47,17 +40,16 @@ if ( !isset($_SESSION["login"])) {
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
-
 <body>
-
+	
 	<!--PreLoader-->
-	<div class="loader">
-		<div class="loader-inner">
-			<div class="circle"></div>
-		</div>
-	</div>
-	<!--PreLoader Ends-->
-
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <!--PreLoader Ends-->
+	
 	<!-- header -->
 	<div class="top-header-area" id="sticker">
 		<div class="container">
@@ -76,10 +68,10 @@ if ( !isset($_SESSION["login"])) {
 						<nav class="main-menu">
 							<ul>
 								<li><a href="index_2.php">Home</a></li>
-								<li class="current-list-item"><a href="shop.php">Shop</a></li>
-								<li><a href="howtoorder.html">How to Order</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="shop.php">Shop</a></li>
+								<li class="current-list-item"><a href="howtoorder-logged.php">How to Order</a></li>
+								<li><a href="about-logged.php">About</a></li>
+								<li><a href="contact-logged.php">Contact</a></li>
 
 								<li>
 									<div class="header-icons">
@@ -88,7 +80,7 @@ if ( !isset($_SESSION["login"])) {
 								</li>
 							</ul>
 						</nav>
-						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-sign-out-alt"></i></a>
+						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
 						<div class="mobile-menu"></div>
 						<!-- menu end -->
 					</div>
@@ -98,14 +90,33 @@ if ( !isset($_SESSION["login"])) {
 	</div>
 	<!-- end header -->
 
+	<!-- search area -->
+	<div class="search-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<span class="close-btn"><i class="fas fa-window-close"></i></span>
+					<div class="search-bar">
+						<div class="search-bar-tablecell">
+							<h3>Search For:</h3>
+							<input type="text" placeholder="Keywords">
+							<button type="submit">Search <i class="fas fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end search arewa -->
+	
 	<!-- breadcrumb-section -->
 	<div class="breadcrumb-section breadcrumb-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Love and Cherish</p>
-						<h1>Shop</h1>
+						<!-- <p>Get 24/7 Support</p> -->
+						<h1>How to Order</h1>
 					</div>
 				</div>
 			</div>
@@ -113,23 +124,55 @@ if ( !isset($_SESSION["login"])) {
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- shop -->
-	<div class="product-section mt-100 mb-100">
-
+	<!-- contact form -->
+	<div class="contact-from-section mt-150 mb-150">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mb-5 mb-lg-0">
+					<!-- <div class="abt-bg"> -->
+						<!-- <a href="https://www.youtube.com/watch?v=2DWzNhqA8sk" class="video-play-btn popup-youtube"><i class="fas fa-play"></i></a> -->
+						<iframe class="abt-bg" src="https://www.youtube.com/embed/2DWzNhqA8sk">
+						</iframe>						
+					<!-- </div> -->
+				</div>
+				<div class="col-lg-4">
+					<div class="contact-form-wrap">
+						<div class="contact-form-box">
+							<h4><i class="fas fa-map"></i> Shop Address</h4>
+							<p>Jl. Imam Bonjol No.207 <br> Kec. Semarang Tengah. <br> Kota Semarang, Jawa Tengah 50131</p>
+						</div>
+						<div class="contact-form-box">
+							<h4><i class="far fa-clock"></i> Shop Hours</h4>
+							<p>MON - SAT: 8 AM to 7 PM</p>
+						</div>
+						<div class="contact-form-box">
+							<h4><i class="fas fa-address-book"></i> Contact</h4>
+							<p>Phone: +62 111 222 3333 <br> Email: support@petdictive.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+	<!-- end contact form -->
 
-	<div class="container">
-		<?php
-		include "views/barang.php";
-		?>
-
+	<!-- find our location -->
+	<div class="find-location blue-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<p> <i class="fas fa-map-marker-alt"></i> Find Our Location</p>
+				</div>
+			</div>
+		</div>
 	</div>
-	<!-- end products -->
+	<!-- end find our location -->
 
-	<!-- cart -->
-	<div class="product-section mt-100 mb-100">
+	<!-- google map section -->
+	<div class="embed-responsive embed-responsive-21by9">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1637.2020039152578!2d110.40844600045033!3d-6.982864716532012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4ec52229d7%3A0xc791d6abc9236c7!2sUniversitas%20Dian%20Nuswantoro!5e1!3m2!1sid!2sid!4v1640957860903!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" class="embed-responsive-item"></iframe>	</div>
+	<!-- end google map section -->
 
-	</div>
 
 	<!-- footer -->
 	<div class="footer-area">
@@ -175,13 +218,13 @@ if ( !isset($_SESSION["login"])) {
 		</div>
 	</div>
 	<!-- end footer -->
-
+	
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
-					<p>Copyrights &copy; 2015 - 2020 <a href="https://dinus.ac.id/"> PSI UDINUS</a>, All Rights Reserved.</p>
+					<p>Copyrights &copy; 2015 - 2020 <a href="https://dinus.ac.id/"> PSI UDINUS</a>,  All Rights Reserved.</p>
 				</div>
 				<div class="col-lg-6 text-right col-md-12">
 					<div class="social-icons">
@@ -198,9 +241,7 @@ if ( !isset($_SESSION["login"])) {
 		</div>
 	</div>
 	<!-- end copyright -->
-
-	<!-- shop -->
-	<script src="assets/js/store.js"></script>
+	
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
@@ -219,21 +260,10 @@ if ( !isset($_SESSION["login"])) {
 	<script src="assets/js/jquery.meanmenu.min.js"></script>
 	<!-- sticker js -->
 	<script src="assets/js/sticker.js"></script>
+	<!-- form validation js -->
+	<script src="assets/js/form-validate.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
-
-	<!-- Start of ChatBot (www.chatbot.com) code -->
-	<script type="text/javascript">
-		window.__be = window.__be || {};
-		window.__be.id = "61d3d475e81e0b000794ba07";
-		(function() {
-			var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-			be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-		})();
-	</script>
-	<!-- End of ChatBot code -->
-
+	
 </body>
-
 </html>

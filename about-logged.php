@@ -1,3 +1,11 @@
+<?php
+session_start();
+//cek sudah login
+if ( !isset($_SESSION["login"])) {
+    header("Location: login1/login.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,11 +67,15 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="index.php">Home</a></li>
-								<li><a href="howtoorder.html">How to Order</a></li>
-								<li class="current-list-item"><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+							<li><a href="index_2.php">Home</a></li>
+								<li><a href="shop.php">Shop</a></li>
+								<li><a href="howtoorder-logged.php">How to Order</a></li>
+								<li class="current-list-item"><a href="about-logged.php">About</a></li>
+								<li><a href="contact-logged.php">Contact</a></li>
 								<li>
+									<div class="header-icons">
+										<a class="logout" href="login1\logout.php"><i class="fas fa-sign-out-alt"></i></a>
+									</div>
 								</li>
 							</ul>
 						</nav>
