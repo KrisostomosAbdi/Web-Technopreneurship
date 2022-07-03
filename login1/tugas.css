@@ -29,6 +29,7 @@
   .carousel{
     flex: 75%;
     background-size: cover;
+    /* object-fit: cover; */
     text-align: center;
     height: 100%;
     margin-right: -10px;

@@ -77,9 +77,9 @@ if ( !isset($_SESSION["login"])) {
 							<ul>
 								<li><a href="index_2.php">Home</a></li>
 								<li class="current-list-item"><a href="shop.php">Shop</a></li>
-								<li><a href="howtoorder.html">How to Order</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="howtoorder-logged.php">How to Order</a></li>
+								<li><a href="about-logged.php">About</a></li>
+								<li><a href="contact-logged.php">Contact</a></li>
 
 								<li>
 									<div class="header-icons">
