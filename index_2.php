@@ -205,7 +205,7 @@ if ( !isset($_SESSION["login"])) {
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
 						<h3><span class="orange-text">Our</span> Products</h3>
-						<p>BOMBOM Religy Shop menyediakan perlengkapan ibadah dengan kualitas tinggi dan harga yang bersaing</p>
+						<p>Bombom Religy Shop menyediakan berbagai perlengkapan ibadah untuk Agama Islam, Nasrani, Hindu, dan Buddha.</p>
 					</div>
 				</div>
 			</div>
@@ -216,29 +216,29 @@ if ( !isset($_SESSION["login"])) {
 						<div class="product-image">
 							<img src="assets/img/products/product-img-1.jpg" alt="">
 						</div>
-						<h3>Persia</h3>
-						<p class="product-price"><span>Price</span> 51$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						<h3>Rosario Kecil</h3>
+						<p class="product-price"><span>Price</span> Rp11.000 </p>
+						<a href="shop.php" class="cart-btn"><i class="fas fa-shopping-cart"></i> Order Now</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<img src="assets/img/products/product-img-10.jpg" alt="">
+							<img src="assets/img/products/product-img-2.jpg" alt="">
 						</div>
-						<h3>Cat Toys</h3>
-						<p class="product-price"><span>Price</span> 8$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						<h3>Tasbih</h3>
+						<p class="product-price"><span>Price</span> Rp5.500 </p>
+						<a href="shop.php" class="cart-btn"><i class="fas fa-shopping-cart"></i> Order Now</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<img src="assets/img/products/product-img-4.jpg" alt="">
+							<img src="assets/img/products/product-img-3.jpg" alt="">
 						</div>
-						<h3>Greyhound</h3>
-						<p class="product-price"><span>Price</span> 79$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						<h3>Budha Daun Kuning Feber</h3>
+						<p class="product-price"><span>Price</span> Rp200.000 </p>
+						<a href="shop.php" class="cart-btn"><i class="fas fa-shopping-cart"></i> Order Now</a>
 					</div>
 				</div>
 			</div>
@@ -256,36 +256,37 @@ if ( !isset($_SESSION["login"])) {
 						<div class="price-box">
 							<div class="inner-price">
 								<span class="price">
-									<strong>30%</strong> <br> off Price
+									<strong>30%</strong> <br> off price
 								</span>
 							</div>
 						</div>
-						<img src="assets/img/b.jpg" alt="">
+						<img src="assets/img/alquran.jpeg" alt="">
 					</div>
 				</div>
 				<!--Content Column-->
 				<div class="content-column col-lg-6">
 					<h3><span class="orange-text">Deal</span> of the month</h3>
-					<h4>Persian Cat</h4>
-					<div class="text">Kucing Persia adalah kucing ras asing pertama yang diimpor ke Thailand. Kucing Persia telah menjadi salah satu ras kucing paling populer baik lokal maupun internasional. Mereka memiliki kepala bulat yang khas, dengan telinga kecil yang membulat di ujungnya. Kucing Persia ramah dan mudah bergaul, selain itu, wajah mereka yang menggemaskan dan unik juga menjadi alasan yang membuat orang jatuh cinta pada mereka.</div>
+					<h4>Al-Quran</h4>
+					<div class="text">Al-quran adalah sebuah kitab suci utama dalam agama Islam Kalam Allah SWT, yang dipercayai Muslim bahwa kitab ini diturunkan oleh Allah Subhanahu wa ta ala (tuhan dalam Islam), yang diturunkan kepada Nabi Muhammad SAW. Bahan Produk : Kertas Quran Paper Full Color. Model : Persegi Panjang A4 (21 x 30 cm). Berat : 1.5KG.
+					</div>
 					<!--Countdown Timer-->
 					<div class="time-counter">
 						<div class="time-countdown clearfix" data-countdown="2022/2/01">
 							<div class="counter-column">
-								<div class="inner"><span class="count">00</span>Days</div>
+								<div class="inner"><span class="count">05</span>Days</div>
 							</div>
 							<div class="counter-column">
-								<div class="inner"><span class="count">00</span>Hours</div>
+								<div class="inner"><span class="count">10</span>Hours</div>
 							</div>
 							<div class="counter-column">
-								<div class="inner"><span class="count">00</span>Mins</div>
+								<div class="inner"><span class="count">37</span>Mins</div>
 							</div>
 							<div class="counter-column">
-								<div class="inner"><span class="count">00</span>Secs</div>
+								<div class="inner"><span class="count">10</span>Secs</div>
 							</div>
 						</div>
 					</div>
-					<a href="cart.html" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					<a href="login1/login.php" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Order Now</a>
 				</div>
 			</div>
 		</div>
